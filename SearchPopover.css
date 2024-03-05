@@ -1,0 +1,31 @@
+.PopoverContent {
+  border-radius: 4px;
+  padding: 20px;
+  width: 260px;
+  z-index: 9999999999999;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  font-size: small;
+  outline: none;
+}
+.PopoverContent > hr {
+  opacity: 0.1;
+}
+.PopoverContent > div > img {
+  border-radius: 3px;
+}
+.PopoverContent > div > span {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.PopoverContent > div {
+  cursor: pointer;
+}
+
+/* .PopoverContent:hover {
+  background-color: var(--secondary-color);
+} */
+
+.PopoverArrow {
+  fill: var(--background-blur-dark);
+}

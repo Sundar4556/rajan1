@@ -1,0 +1,44 @@
+.createpost-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  text-align: left;
+  color: var(--primary-text-color);
+}
+.createpost-avatar > img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: var(--secondary-color);
+}
+.createpost-input > textarea {
+  all: unset;
+  flex: 1;
+  outline: none;
+  word-wrap: break-word;
+  height: max-content;
+  min-height: 5rem;
+  max-height: 50rem;
+  box-sizing: border-box;
+}
+.textarea {
+  all: unset;
+   flex: 1;
+  flex-wrap: wrap;
+  outline: none;
+  word-wrap: break-word;
+  height: max-content;
+  min-height: 5rem;
+  max-height: 50rem;
+  overflow: hidden;
+  border:1px solid white;
+  box-sizing: border-box;
+}
+.createpost-input {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.createpost-input > button {
+  align-self: flex-end;
+}

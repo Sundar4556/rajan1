@@ -1,0 +1,37 @@
+.avatar-radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 11px;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.auth-form > .avatar-radio-header {
+  color: var(--primary-text-color);
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  margin-inline: 12px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.auth-form > .avatar-radio-header > span{
+  cursor: pointer;
+}
+.avatar-radio-group input[type="radio"] {
+  display: none;
+}
+
+.avatar-radio {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-image {
+  width: 40px;
+  height: 40px;
+  user-select: none;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
